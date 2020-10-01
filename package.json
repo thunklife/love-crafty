@@ -10,6 +10,9 @@
     "Markov",
     "Lovecraft"
   ],
-  "author": "ThunkLife",
-  "license": "MIT"
+  "author": "thunklife",
+  "license": "ISC",
+  "dependencies": {
+    "markov-text-gen": "4.0.2"
+  }
 }
