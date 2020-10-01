@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Crafty</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class="grid">
+    <div id="loading">
+      <div class="loader"></div>
+    </div>
+    <div id="loaded" class="hide">
+      <main>
+        <div id="message"></div>
+      </main>
+      <nav>
+        <div class="checkbox">
+          <input id="chars" type="checkbox" checked>
+          <label for="chars" class="chars-label">Use Character Matching</label>
+        </div>
+        <div class="create">
+          <button id="run">Create</button>
+        </div>
+      </nav>
+    <footer>
+      <p>Markov driven messages based on the works of H.P. Lovecraft.</p>
+    </footer>
+  </div>
+  <script src="./index.js"></script>
+  </body>
+</html>
