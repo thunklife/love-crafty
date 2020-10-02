@@ -3,7 +3,7 @@ import build from 'markov-text-gen';
 
 const el = document.getElementById('message');
 const btn = document.getElementById('run');
-const charsOption = document.getElementById('chars');
+const charsOption = document.getElementById('switch-1');
 const loadingZone = document.getElementById('loading');
 const loadedZone = document.getElementById('loaded');
 

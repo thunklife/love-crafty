@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body class="grid">
+    <h1 id="title">Love Crafty</h1>
+    <h6>Markov driven messages based on the works of H.P. Lovecraft</h6>
     <div id="loading">
       <div class="loader"></div>
     </div>
@@ -14,17 +16,20 @@
         <div id="message"></div>
       </main>
       <nav>
-        <div class="checkbox">
-          <input id="chars" type="checkbox" checked>
-          <label for="chars" class="chars-label">Use Character Matching</label>
+        <div class="chars">
+          <span class="toggle-label">Use Characters</span>
+          <div class="switch">
+            <input id="switch-1" class="switch-input" type="checkbox" checked>
+            <label for="switch-1" class="switch-label">Use Character Matching</label>
+          </div>
         </div>
         <div class="create">
           <button id="run">Create</button>
         </div>
       </nav>
-    <footer>
-      <p>Markov driven messages based on the works of H.P. Lovecraft.</p>
-    </footer>
+      <footer>
+        <p>Built by <a href=https://thunklife.dev/>thunklife</p>
+      </footer>
   </div>
   <script src="./index.js"></script>
   </body>
